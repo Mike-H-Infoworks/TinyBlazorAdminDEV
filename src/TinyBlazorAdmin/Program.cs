@@ -20,7 +20,8 @@ namespace TinyBlazorAdmin
             static string functionEndpoint(WebAssemblyHostBuilder builder) =>
                 builder.Configuration
                     .GetSection(nameof(UrlShortenerSecuredService))
-                    .GetValue<string>(nameof(AzFuncAuthorizationMessageHandler.Endpoint));
+                    .GetValue<string>(nameof(AzFuncAuthorizationMessageHandler.Scope));
+                    //.GetValue<string>(nameof(AzFuncAuthorizationMessageHandler.Endpoint));
 
             // sets up AAD + user_impersonation to access functions.
             builder.Services.AddMsalAuthentication(options =>

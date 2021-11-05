@@ -1,0 +1,11 @@
+IwUrlTinyBlazorAdmin
+Tenant Id:f341eefe-e2cc-499c-bdcc-a9ae816f8053
+Client Id:d348c4d3-6f1e-40e3-b573-29b4c5ca575f
+
+IwCustomUrlTools-FunctionApp
+Client Id:8969ca1b-f3f4-434e-befd-e23c0f3061d0
+
+iwurltoolsd26qf
+Url:https://iwurltoolsd26qf.azurewebsites.net
+
+https://localhost:44397/
